@@ -1,0 +1,89 @@
+.homecanvas {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.homeContainer {
+  background-color: white;
+  padding-top: 4vmax;
+  border-radius: 0 0 200px 200px;
+  border-bottom: 200px solid white;
+  position: relative;
+  z-index: 1;
+}
+
+.homeContainer > h3 {
+  text-align: center;
+  padding: 4vmax;
+  color: rgba(22, 20, 20, 0.904);
+}
+
+.homeSkills {
+  height: 1500px;
+  position: relative;
+  background-color: hsl(219, 48%, 8%);
+  position: relative;
+  padding: 200px;
+  display: flex;
+  margin-bottom: -200px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  perspective: 450px;
+  transform: translateY(-200px);
+}
+
+.homeSkills > h3 {
+  text-align: center;
+  margin-bottom: 4vmax;
+  color: white;
+  font-size: 4vmax;
+}
+
+.homeCubeSkills {
+  height: 300px;
+  width: 300px;
+}
+
+.homeCubeSkillsFaces {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
+
+.homeCubeSkillsFaces > img {
+  width: inherit;
+  height: inherit;
+  /* animation: cubeRotation 15s linear infinite alternate; */
+}
+
+.homeCubeSkillsFace1 {
+  transform: translate3d(0, 0, 150px);
+}
+.homeCubeSkillsFace2 {
+  transform: rotateY(180deg) translate3d(0, 0, 150px);
+}
+.homeCubeSkillsFace3 {
+  transform: rotateY(-90deg) translate3d(0, 0, 150px);
+}
+.homeCubeSkillsFace4 {
+  transform: rotateY(90deg) translate3d(0, 0 150px);
+}
+.homeCubeSkillsFace5 {
+  transform: rotateX(90deg) translate(0, 0, 150px);
+}
+.homeCubeSkillsFace6 {
+  transform: rotateX(-90deg) translate(0, 0, 150px);
+}
+
+/* @keyframes cubeRotation {
+  to {
+    transform: rotateY(360deg) rotateX(480deg) rotateY(720deg );
+  }
+} */
