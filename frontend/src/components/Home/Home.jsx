@@ -6,6 +6,17 @@ import venusImage from "../../Images/venus.jpg";
 import spaceImage from "../../Images/space.jpg";
 import TimeLine from "../TimeLine/TimeLine";
 import Typography from "@material-ui/core/Typography";
+import {
+  SiCplusplus,
+  SiReact,
+  SiJavascript,
+  SiMongodb,
+  SiNodedotjs,
+  SiExpress,
+  SiCss3,
+  SiHtml5,
+  SiThreedotjs,
+} from "react-icons/si";
 
 const Home = () => {
   useEffect(() => {
@@ -110,37 +121,49 @@ const Home = () => {
           </div>
           <div className="homeCubeSkillsFaces homeCubeSkillsFace2">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROQwMVXxN-yI7fdrLKyFcNajn3LyonNQknAQ&usqp=CAU"
+              src="https://5.imimg.com/data5/CN/NH/MY-2/wallpaper1-jpg-500x500.jpg"
               alt="Face2"
             />
           </div>
           <div className="homeCubeSkillsFaces homeCubeSkillsFace3">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROQwMVXxN-yI7fdrLKyFcNajn3LyonNQknAQ&usqp=CAU"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLSjcGvq7o7olEU1U6D4iWw4yOhjFvpOV-79ST5Ze2UdjVX_en4EtnNNTCFCoIeE-yaMY&usqp=CAU"
               alt="Face3"
             />
           </div>
           <span></span>
           <div className="homeCubeSkillsFaces homeCubeSkillsFace4">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROQwMVXxN-yI7fdrLKyFcNajn3LyonNQknAQ&usqp=CAU"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfe0TouQFqbx7MqcjL4xY3O6aOykK1OCF0cg&usqp=CAU"
               alt="Face4"
             />
           </div>
           <div className="homeCubeSkillsFaces homeCubeSkillsFace5">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROQwMVXxN-yI7fdrLKyFcNajn3LyonNQknAQ&usqp=CAU"
+              src="https://imagebee.org/artistic/space_ring_2-wallpapers/space_ring_2-wallpaper-1024x1024.jpg"
               alt="Face5"
             />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace6">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROQwMVXxN-yI7fdrLKyFcNajn3LyonNQknAQ&usqp=CAU"
-              alt="Face6"
-            />
+            <img src="https://wallpapercave.com/wp/wp2382898.png" alt="Face6" />
           </div>
         </div>
+        <div className="cubeShadow"></div>
+        <div className="homeskillsBox">
+          <SiCplusplus />
+          <SiReact />
+          <SiJavascript />
+          <SiMongodb />
+          <SiNodedotjs />
+          <SiExpress />
+          <SiCss3 />
+          <SiHtml5 />
+          <SiThreedotjs />
+        </div>
+      </div>
+      <div className="homeYoutube">
+        <Typography variant="h3">YOUTUBE VIDEOS</Typography>
       </div>
     </div>
   );
